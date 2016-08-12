@@ -171,6 +171,12 @@ input {
 	text-align: center;
 }
 
+/*utilitties*/
+
+.courgette {
+	font-family: courgette;
+}
+
 .enl {
 	text-decoration: none;
 	color:  #8B9EAF;
@@ -180,11 +186,6 @@ input {
 	color: #F5B869;
 }
 
-/*utilitties*/
-
-.courgette {
-	font-family: courgette;
-}
 
 /* Responsive */
 
@@ -217,6 +218,12 @@ input {
 		padding-bottom: 10%;
 	}
 
+
+@media screen and (max-width: 600px) {
+	.hamb {
+		margin-top: -15%;
+	}
+
 	.img-fondo {
 		width: 100%;
 	}
@@ -230,9 +237,8 @@ input {
 	}
 
 	.marg-img {
-		margin-top: -3%;
+		margin-top: -4%;
 	}
-
 	.col-5 {
 		display: none;
 	}
@@ -247,11 +253,5 @@ input {
 
 	.footer {
 		margin-top: 5%
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.hamb {
-		margin-top: -15%;
 	}
 }
