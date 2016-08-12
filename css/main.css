@@ -221,6 +221,13 @@ input {
 		width: 100%;
 	}
 
+}
+
+@media screen and (max-width: 600px) {
+	.hamb {
+		margin-top: -15%;
+	}
+
 	.col-4 {
 		width: 100%;
 	}
@@ -230,7 +237,7 @@ input {
 	}
 
 	.marg-img {
-		margin-top: -3%;
+		margin-top: -4%;
 	}
 
 	.col-5 {
@@ -247,11 +254,5 @@ input {
 
 	.footer {
 		margin-top: 5%
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.hamb {
-		margin-top: -15%;
 	}
 }
